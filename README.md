@@ -5,10 +5,21 @@ Problem: My mother - who has zero knowledge of handling smartphones or tablet co
 Solution: Using a Raspberry Pi Zero 2W and a 9 Inch monitor you can plug to the Pi Zero via HDMI cable. It can be stationary, so no batteries necessary, it gets its 5 Volt via USB cable and USB Adapter. You have a button to boot the device or shut it down to unplug it safely and to save energy and improve lifespan of the devices.
 
 So what we need is the following:
-1. Raspberry Pi zero 2W
+1. Raspberry Pi zero 2W 
 2. cooling enclosure
 3. Button and cables
 4. USB cables to connect camera and Pi Zero to power outlet via USB socket
 5. HDMI cables to connect Pi Zero to the monitor
 6. an outdoor camera (should be installed and working already) and a video stream URL 
-7. a picture frame to assemble all the above part and to look fancy :) 
+7. a wooden picture frame to assemble all the above part and to look fancy :) 
+
+The software requirements are: 
+
+1. OS should run on Pi Zero on a SD card (I chose a console version of linux mint)
+2. it should run in kiosk mode
+3. it should show a custom image start screen
+4. after booting, it should show the video stream and nothing else
+5. pressing a button will shut it down
+6. pressing a button will wake it up if it was not running
+
+   
